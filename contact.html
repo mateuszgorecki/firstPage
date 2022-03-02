@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Mateusz Górecki" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <link
+      href="./style.css"
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
+
+    <title>CV | Contact</title>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <div class="nav-bar">
+        <div class="nav-bar__wrapper">
+          <div class="nav-home">
+            <a href="index.html"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/1946/1946436.png"
+                alt="home"
+            /></a>
+          </div>
+
+          <div class="nav-github">
+            <a
+              href="https://github.com/mateuszgorecki"
+              rel="noopener noreferrer"
+              target="_blank"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/25/25657.png"
+                alt="github"
+            /></a>
+          </div>
+
+          <div class="nav-about">
+            <a href="about.html"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png"
+                alt="about"
+            /></a>
+          </div>
+
+          <div class="nav-contact">
+            <a href="contact.html"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/1250/1250973.png"
+                alt="contact"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content bg-yellow">
+        <div class="content__contact-form">
+          <div class="contact-form__indicator">
+            <div class="indicator__item">&block;</div>
+          </div>
+
+          <div class="form">
+            <form
+              action=""
+              method="POST"
+              enctype="application/x-www-form-urlencoded"
+            >
+              <div class="form__content">
+                <div class="form__content-author">
+                  <p>/MateuszGorecki/Projects/ContactForm/</p>
+                </div>
+
+                <div class="form__content-title">
+                  <p>Contact Form</p>
+                </div>
+
+                <div class="form__content-input">
+                  <div class="input">
+                    <label for="firstName">
+                      <input
+                        type="text"
+                        name=" firstName"
+                        placeholder="Name:"
+                        required
+                      />
+                    </label>
+                  </div>
+
+                  <div class="input">
+                    <label for="email">
+                      <input
+                        type="email"
+                        name="email"
+                        placeholder="Email:"
+                        required
+                      />
+                    </label>
+                  </div>
+
+                  <div class="input">
+                    <label for="phone">
+                      <input
+                        type="number"
+                        name="phone"
+                        placeholder="Phone number:"
+                        required
+                      />
+                    </label>
+                  </div>
+
+                  <div class="input">
+                    <label for="message">
+                      <textarea
+                        name="message"
+                        placeholder="Text your message &colon;&rpar;"
+                        required
+                      ></textarea>
+                    </label>
+                  </div>
+
+                  <div class="input checkbox">
+                    <input
+                      type="checkbox"
+                      name="regulamin"
+                      id="regulamin"
+                      required
+                    />
+                    <label for="regulamin" class="label">Privacy Policy</label>
+                  </div>
+                </div>
+
+                <div class="form__content-info">
+                  <div class="form__content-info--content">
+                    <p>If you want sent this form, click this button.</p>
+                  </div>
+
+                  <div class="form__content-info--item">
+                    <p>&cudarrr;</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form__button">
+                <div class="form__button-item">
+                  <button type="submit"></button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
